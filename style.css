@@ -1,0 +1,139 @@
+body {
+    height:100vh;
+    background: linear-gradient(to bottom, #1c568d,#e2a600);
+}
+a {
+    text-decoration: none;
+}
+.con{
+    height:560px;
+    width: 970px;
+    background-color: rgba(255,255,255,0.65);
+    border-radius: 10px;
+    margin-left: 270px;
+    margin-top: 110px;
+}
+
+.logo{
+    position: relative;
+    left:100px;
+    top:30px;
+}
+
+.ban {
+    position: relative;
+    left:100px;
+    top:70px;
+    height: 370px;
+    width: 300px;
+    
+    background-image: url("Amizone Banner.jpg");
+    background-size:cover;
+    border-radius: 12px;
+}
+
+.cc {
+    color: #57B846;
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    bottom:330px
+    
+}
+h2 {
+    font-family: "Poppin" Bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+#sp{
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+    display: inline-block;
+    bottom: 330px;
+    font-family: "Poppin";
+    color:#194880;
+    line-height: 5;
+    font-weight: bolder;
+}
+
+.log{
+    text-align: center;
+    font-size: 16px;
+    font-family: "Poppins Regular";
+    font-weight: LIGHT;
+    position: relative;
+    left:215px;
+    bottom: 360px;
+    color: #666666;
+}
+
+.user{
+    position: relative;
+    left: 800px;
+    width: 375px;
+    height: 50px;
+    border-radius: 30PX;
+    background-color: #E6E6E6;
+    font-size: 18px;
+    bottom: 290px;
+    border: none;
+}
+
+.pass{
+    width: 375px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #E6E6E6;
+    font-size: 18px;
+    border: none;
+    position: relative;
+    left: 800px;
+    bottom: 280PX;
+}
+
+.wow {
+    background-image: url("cloudflare.png");
+    background-size: cover;
+    width: 277.5px;
+    height: 54.75px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 270px;
+    left: 850px;
+}
+
+button {
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 250px;
+    left: 810px;
+    border:none;
+    background-color: #57B846;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #194880;
+}
+.last{
+    display: inline-block;
+    position: relative;
+    left: 530px;
+    bottom: 205px;
+    color: #999999;
+}
+
+#let{
+    color: #666666;
+}
